@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ankushji.laundry",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ankushji.laundry",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
+        "versionCode": 1,
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71694cdd-e719-4c9d-87db-b21e6a925364"
+      }
     }
   }
 }
